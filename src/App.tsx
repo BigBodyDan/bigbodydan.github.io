@@ -8,7 +8,7 @@ function App() {
     const parallaxRef = useRef<IParallax>(null);
 
   return (
-    <main>
+    <main className="font-sans">
         {/* Parallax container that will hold each page*/}
         <Parallax
             ref={parallaxRef}

@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+15&display=swap');
 @import "tailwindcss";
+
 @plugin "daisyui";
 
 @tailwind utilities;
@@ -10,6 +12,17 @@
     --color-yellow: #FFEA00;
     --color-cyan: #00F5FF;
     --color-midnight: #1A0B2E;
+
+    --font-sans: "Inter", sans-serif;
+    --font-jersey: "Jersey 15", cursive;
+}
+
+@utility font-sans {
+    font-family: var(--font-sans), sans-serif;
+}
+
+@utility font-pixel {
+    font-family: var(--font-jersey), cursive;
 }
 
 .p-minimal-size {

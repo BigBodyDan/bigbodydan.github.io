@@ -48,14 +48,14 @@ function Hero({ parallaxRef }: Props) {
       <Name
         speed={-5}
         text={texts.hero.greeting}
-        className="-translate-y-15 text-4xl text-white/70 lg:-translate-x-57.5 lg:-translate-y-20"
+        className="font-pixel -translate-y-15 text-4xl text-white/70 lg:-translate-x-57.5 lg:-translate-y-20"
       />
 
       {/* Name */}
       <Name
         speed={-0.625}
         text={texts.hero.name}
-        className="-translate-y-5 text-6xl text-white/70 lg:-translate-y-7.5 lg:text-8xl"
+        className="font-pixel -translate-y-5 text-6xl text-white/70 lg:-translate-y-7.5 lg:text-8xl"
       />
 
       {/* Arrows to entice scrolling */}

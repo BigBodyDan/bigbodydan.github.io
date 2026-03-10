@@ -33,7 +33,7 @@ function NavigationBarText({ text, className = "", onClick = () => {},}:PropsAga
       <span
           onClick={onClick}
           className={cn(
-              "p-navigation-bar-text px-4 py-1 text-end text-3xl text-white/90 lg:px-12 lg:text-4xl",
+              "font-pixel p-navigation-bar-text px-4 py-1 text-end text-3xl text-white/90 lg:px-12 lg:text-4xl",
               className,
           )}
       >
