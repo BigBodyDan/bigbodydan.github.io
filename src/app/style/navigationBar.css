@@ -1,0 +1,22 @@
+.p-navigation-bar-text {
+  transition: all 0.2s ease-in-out;
+}
+
+#navigation-bar:has(.p-navigation-bar-text:hover) .p-navigation-bar-text:not(:hover) {
+  color: #FFFFFF;
+  scale: 0.8;
+  opacity: 50%;
+}
+
+.p-navigation-bar-text:hover {
+  scale: 1.1;
+  text-shadow: 0 0 30px #E0DBFF;
+  cursor: pointer;
+  color : #FFFFFF;
+  opacity: 90%;
+}
+
+.p-navigation-bar-text:active {
+  scale: 1.2;
+  text-shadow: 0 0 10px #FFFFFF;
+}
