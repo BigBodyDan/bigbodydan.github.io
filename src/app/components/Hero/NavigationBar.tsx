@@ -15,7 +15,7 @@ type Props = {
   parallaxRef: RefObject<IParallax | null>;
 };
 
-type PropsAgain = {
+type PropsText = {
   text: string;
   className?: string;
   onClick?: () => void;
@@ -28,7 +28,7 @@ type PropsAgain = {
  * @param className Additional class to apply to the button
  * @param onClick Function that will be executed when the text is clicked
  */
-function NavigationBarText({ text, className = "", onClick = () => {},}:PropsAgain) {
+function NavigationBarText({ text, className = "", onClick = () => {},}:PropsText) {
   return (
       <span
           onClick={onClick}

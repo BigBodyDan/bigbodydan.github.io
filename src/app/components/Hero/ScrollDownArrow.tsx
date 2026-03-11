@@ -17,7 +17,7 @@ type Props = {
   parallaxRef: RefObject<IParallax | null>;
 };
 
-type PropsAgain = {
+type PropsChevron = {
   className?: string;
 };
 
@@ -26,7 +26,7 @@ type PropsAgain = {
  * @description Simple chevron.
  * @param className Additional class to apply to the button
  */
-function Chevron({ className = " " }: PropsAgain) {
+function Chevron({ className = " " }: PropsChevron) {
   return (
     <img
       src={chevronImg}
@@ -42,7 +42,7 @@ function Chevron({ className = " " }: PropsAgain) {
  * @description Three chevrons one above another
  * @param className Additional class to apply to the button
  */
-function ThreeChevron({ className = " " }: PropsAgain) {
+function ThreeChevron({ className = " " }: PropsChevron) {
   return (
     <div
       className={cn(
