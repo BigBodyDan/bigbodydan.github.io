@@ -30,16 +30,6 @@
     min-height: 600px;
 }
 
-.half-ellipse {
-    width: 130%;
-    height: 280px;
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-
 /* Hero */
 
 .p-animation {
@@ -56,9 +46,6 @@
     width: 100%;
     min-height: 600px;
     min-width: 320px;
-    background-position: bottom center;
-    background-size: auto 1038px;
-    background-repeat: repeat-x;
     position: fixed;
 }
 

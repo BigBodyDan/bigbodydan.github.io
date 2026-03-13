@@ -27,7 +27,7 @@ function BackgroundLayer({ speed, path }: Props) {
         <img
           src={path}
           alt=""
-          className="object-cotain"
+          className="absolute inset-0 w-full h-full object-fill"
         />
       </div>
     </ParallaxLayer>
