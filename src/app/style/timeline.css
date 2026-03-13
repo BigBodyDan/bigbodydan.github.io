@@ -1,0 +1,26 @@
+.timeline-middle svg {
+    color: #00F5FF;
+}
+
+.timeline li hr {
+    background-color: #E0DBFF;
+}
+
+.timeline li .first-hr {
+    background: linear-gradient(to right, transparent, #E0DBFF);
+}
+
+.timeline li .last-hr {
+    background: linear-gradient(to right, #E0DBFF, transparent);
+}
+
+@media (min-width:1024px) {
+
+    .timeline li .first-hr {
+        background: linear-gradient(to bottom, transparent, #E0DBFF);
+    }
+
+    .timeline li .last-hr {
+        background: linear-gradient(to bottom, #E0DBFF, transparent);
+    }
+}

@@ -1,6 +1,7 @@
 import {type IParallax, Parallax } from "@react-spring/parallax";
 import { useRef } from "react";
 import Hero from "./app/pages/Hero.tsx";
+import About from "./app/pages/About.tsx";
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
         >
             {/* Hero for the homepage */}
             <Hero parallaxRef={parallaxRef} />
+
+            <About />
 
         </Parallax>
     </main>
