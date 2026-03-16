@@ -69,15 +69,15 @@ function NavigationBar({ speed, parallaxRef }: Props) {
           onClick={() => scrollToSection(1)}
         ></NavigationBarText>
 
-        {/* Projects */}
-        <NavigationBarText
-          text={texts.hero.nav.projects}
-          onClick={() => scrollToSection(2)}
-        ></NavigationBarText>
-
         {/* Skills */}
         <NavigationBarText
           text={texts.hero.nav.skills}
+          onClick={() => scrollToSection(2)}
+        ></NavigationBarText>
+
+        {/* Projects */}
+        <NavigationBarText
+          text={texts.hero.nav.projects}
           onClick={() => scrollToSection(3)}
         ></NavigationBarText>
       </div>
