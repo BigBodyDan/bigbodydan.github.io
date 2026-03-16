@@ -1,26 +1,26 @@
 .timeline-middle svg {
-    color: #00F5FF;
+    color: var(--color-cyan);
 }
 
 .timeline li hr {
-    background-color: #E0DBFF;
+    background-color: var(--color-lavender);
 }
 
 .timeline li .first-hr {
-    background: linear-gradient(to right, transparent, #E0DBFF);
+    background: linear-gradient(to right, transparent, var(--color-lavender));
 }
 
 .timeline li .last-hr {
-    background: linear-gradient(to right, #E0DBFF, transparent);
+    background: linear-gradient(to right, var(--color-lavender), transparent);
 }
 
 @media (min-width:1024px) {
 
     .timeline li .first-hr {
-        background: linear-gradient(to bottom, transparent, #E0DBFF);
+        background: linear-gradient(to bottom, transparent, var(--color-lavender));
     }
 
     .timeline li .last-hr {
-        background: linear-gradient(to bottom, #E0DBFF, transparent);
+        background: linear-gradient(to bottom, var(--color-lavender), transparent);
     }
 }

@@ -33,7 +33,7 @@ function Hero({ parallaxRef }: Props) {
   return (
     <div>
       {/* Layers for the background */}
-      <BackgroundColor color="#1A0B2E" offset={0} />
+      <BackgroundColor color="var(--color-midnight)" offset={0} />
 
       <BackgroundLayer speed={-0.9} path={img4_Background} />
       <BackgroundLayer speed={-0.55} path={img3_Ground} />

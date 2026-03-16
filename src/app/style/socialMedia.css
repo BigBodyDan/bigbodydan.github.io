@@ -10,7 +10,7 @@
 }
 
 .p-social-media-badge:hover {
-  box-shadow: 0 0 10px #E0DBFF;
+  box-shadow: 0 0 10px var(--color-lavender);
 }
 
 #social-media-selector {
@@ -18,13 +18,10 @@
   left: 0;
   height: 3px;
   width: 100%;
-  box-shadow: 0 0 10px #FFFFFF;
-  background-color: #FFFFFF;
-  opacity: 50%;
+  box-shadow: 0 0 10px var(--color-white);
   transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 
 #social-media-layer {
-  transition: margin 0.5s ease-in-out,
-    gap 0.5s ease-in-out;
+  transition: margin 0.5s ease-in-out, gap 0.5s ease-in-out;
 }

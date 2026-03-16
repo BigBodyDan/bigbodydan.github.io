@@ -3,20 +3,20 @@
 }
 
 #navigation-bar:has(.p-navigation-bar-text:hover) .p-navigation-bar-text:not(:hover) {
-  color: #FFFFFF;
+  color: var(--color-white);
   scale: 0.8;
   opacity: 50%;
 }
 
 .p-navigation-bar-text:hover {
   scale: 1.1;
-  text-shadow: 0 0 30px #E0DBFF;
+  text-shadow: 0 0 30px var(--color-lavender);
   cursor: pointer;
-  color : #FFFFFF;
+  color : var(--color-white);
   opacity: 90%;
 }
 
 .p-navigation-bar-text:active {
   scale: 1.2;
-  text-shadow: 0 0 10px #FFFFFF;
+  text-shadow: 0 0 10px var(--color-white);
 }

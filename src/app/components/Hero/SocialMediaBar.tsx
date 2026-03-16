@@ -120,12 +120,12 @@ function SocialMediaBar({ speed }: Props) {
         {/* Bar that follows the selected badge */}
         <div
           id="social-media-selector"
-          className="flex flex-col items-center rounded-full"
+          className="flex flex-col items-center rounded-full bg-white/50"
         >
           {/* Text */}
           <div
             id="social-media-selector-text"
-            className="mt-2 text-nowrap text-center text-sm"
+            className="mt-2 text-nowrap text-center text-sm text-white/70"
           ></div>
         </div>
       </div>

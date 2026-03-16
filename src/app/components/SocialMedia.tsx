@@ -34,7 +34,7 @@ function SocialMedia({
     <a href={href} target={href === "#" ? "" : "_blank"}>
       <button
         className={cn(
-          "p-social-media-badge animate-shimmer bg-white/50 bg-size-[200%_100%] transition-colors",
+          "p-social-media-badge bg-white/50",
           className,
         )}
         data-num={parseInt(num)}
